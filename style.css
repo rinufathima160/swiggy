@@ -1,0 +1,163 @@
+.user{
+    font-size: 50px;
+    color: rgb(53, 50, 50);
+}
+
+.searchbar{
+    margin-right: 100px;
+}
+
+.navbar {
+    min-height: 50px;
+    height: 90px;
+  }
+
+  .round{
+    font-size: 30px;
+  }
+  .round1{
+    margin-left: 100px;
+  }
+
+  .mind-txt{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 100px;
+  }
+
+  .divv{
+    margin-left: 900px;
+  }
+  div.scroll-container {
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    width: 1200px;
+    margin-left: 100px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+
+  .scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+.card-img-top{
+  border-radius: 20px;
+}
+
+  .card:hover{
+    /* box-shadow: 0 1px 2px 7px rgb(136, 126, 108); */
+     transform: scale(1.07);
+    transition: transform 0.3s ease-in-out;
+    width: 320px;
+   }
+
+
+   .scro::-webkit-scrollbar{
+    display: none;
+   }
+
+   .btnonimg{
+    margin-top: 180px;
+  
+   }
+
+   .card-title{
+    font-size: 18px;
+    font-weight: 700;
+   }
+
+   .scro{
+    width: 1250px;
+
+   }
+
+  .line{
+    width: 1250px;
+margin-left: 100px;
+  }
+
+  .line1{
+    width: 1200px;
+    margin-left: 100px;
+  }
+
+  .buttons{
+    margin-left: 100px;
+
+  }
+  .fd-row{
+    margin-left: 100px;
+  }
+
+ .buttonn{
+text-align: center; }
+
+.Reason-div{
+  border-style: solid ;
+  margin-left: 100px;
+  width: 1250px;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 20px;
+  border-color:  rgba(207, 206, 206, 0.411);
+  color: rgb(90, 89, 89);
+}
+
+.reason-head{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.city-div{
+  margin-left: 100px;
+  width: 1250px;
+}
+
+.footer{
+  width: 1485px;
+  padding-left: 250px;
+  padding-right: 250px;
+ 
+}
+
+.fot-head{
+  font-size: 20px;
+}
+
+.fot-para{
+  color: gray;
+  font-weight: 500;
+}
+
+
+@media (max-width:768px) {
+  div.scroll-container {
+    /* background-color: #333; */
+   
+    width: 100%;
+
+  }
+
+  .navbar {
+    min-height: 40px;
+    height: 120px;
+  }
+
+  .collapse{
+    background-color: white;
+  }
+
+  .mind-txt{
+    width: 100%;
+  }
+}
